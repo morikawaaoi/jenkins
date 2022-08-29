@@ -1,4 +1,4 @@
-FROM jdk:8
+FROM openjdk
 VOLUME /tmp
 ADD target/jenkins-docker-test-1.0-SNAPSHOT.jar app.jar
 EXPOSE 5541
